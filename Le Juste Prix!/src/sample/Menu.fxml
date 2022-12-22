@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="768.0" prefWidth="1360.0">
+         <children>
+            <ImageView fitHeight="768.0" fitWidth="1360.0" layoutX="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/menu.gif" />
+               </image>
+            </ImageView>
+            <Text fill="#fff600" layoutX="240.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLAY!" wrappingWidth="235.28662109375">
+               <font>
+                  <Font name="Nirmala UI Semilight" size="89.0" />
+               </font>
+            </Text>
+            <Button layoutX="251.0" layoutY="389.0" mnemonicParsing="false" onAction="#launchGame" onMouseClicked="#launchGame" opacity="0.0" prefHeight="64.0" prefWidth="199.0" text="play_button">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
